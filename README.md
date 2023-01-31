@@ -1,5 +1,5 @@
 # StacksParameterSelection
-This program selects Stacks de novo parameter (M, m and n) values that maximize the number of SNPs called in 80% of samples. Use v2 for later versions of STACKS.
+This program selects Stacks de novo parameter (M, m and n) values that maximize the number of SNPs called in 80% of samples. Asako Chaille and Hayley Nuetzel (San Diego Zoo Wildlife Alliance) modified v2 scripts for later versions of STACKS.
 
 Steps for running Stacks parameter optimization pipeline
 
