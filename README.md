@@ -1,9 +1,9 @@
 # StacksParameterSelection
-This program selects Stacks de novo parameter (M, m and n) values that maximize the number of SNPs called in 80% of samples
+This program selects Stacks de novo parameter (M, m and n) values that maximize the number of SNPs called in 80% of samples. Use v2 for later versions of STACKS.
 
 Steps for running Stacks parameter optimization pipeline
 
-1.	After processing RADtags, run StacksDeNovo.sh (in the directory /media/jamie/4TB/TAM_run01/StacksPipeline/) in exploratory mode:
+1.	After processing RADtags (optional preprocessing of fastq files), run StacksDeNovo.sh (in the directory /media/jamie/4TB/TAM_run01/StacksPipeline/) in exploratory mode:
 a.	This program builds de novo stacks from RADseq fastq files, and can be used to find optimal parameter settings for m, M and n when run in exploratory mode
 b.	There are two ways to run this program: 
 i.	explore a range of each parameter value of m, M and n, holding other parameters constant at the default values
