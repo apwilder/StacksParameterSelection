@@ -37,7 +37,7 @@ l.	HOLDM: #The default value to hold M when varying other parameters [or nothing
 m.	HOLDn: #The default value to hold n when varying other parameters [or nothing if running specific parameter values]
 
 
-2.	After StacksDeNovo.sh is finished, run GetSharedStacks_v2.sh with the command:
+2.	After StacksDeNovo.sh is finished, run GetSharedStacks.sh with the command:
 
 nohup ./GetSharedStacks_v2.sh /media/jamie/4TB/TAM_run01/PopulationMap.txt \
 /media/jamie/4TB/TAM_run01/stacks_denovo_output/ \
